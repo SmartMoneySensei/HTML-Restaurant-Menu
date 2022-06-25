@@ -11,10 +11,17 @@ h2 {
     color: darkred;
 }
 
-h3, 
+h3{
+    color: green;
+    list-style-type: none;
+}
+
+
 p,
 li {
+    font-size: 20px;
     color: green;
+    list-style-type: none;
 }
 
 img {
@@ -65,6 +72,7 @@ nav a:hover {
 
 .service {
     display: inline-block;
+    text-align: center;
     background-color: white;
     border: 5px solid green;
     border-radius: 5px;
@@ -83,4 +91,47 @@ td,
 th {
     border: 1px solid black;
     padding: 5px;
+}
+
+
+/* Bonus */
+
+.highlight {
+    color: blue;
+}
+.highlight1 {
+    color: blueviolet;
+}
+.highlight2 {
+    color: rgb(243, 16, 220);
+}
+.highlight3 {
+    color: rgb(255, 39, 5);
+}
+
+.story {
+    font-size: 25px;
+    color: rgb(100, 6, 250);
+}
+
+
+
+#holiday {
+    width: 100%;
+    padding: 25px;
+    background-color: yellow;
+}
+footer {
+    width: 100%;
+    padding: 20px;
+    background-color: green;
+}
+
+footer p {
+    color: white;
+}
+
+.alert {
+    color: purple;
+    font-size: 25px;
 }
